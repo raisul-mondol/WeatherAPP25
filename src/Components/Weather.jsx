@@ -26,11 +26,12 @@ const Weather = () => {
 
     <div >
     <WeatherInput Searchcity={HandleData }  />
-       {error && (
-        <p className="text-red-600 pl-8 pt-8 ml-80 text-4xl font-semibold">
-          {error}
-        </p>
-      )}
+    {error && (
+  <p className="text-red-600 text-4xl font-semibold flex justify-center items-center h-full">
+    {error}
+  </p>
+)}
+
   
       {data && <WeatherShow WeatherData={data} />}
     </div>
