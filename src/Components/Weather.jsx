@@ -22,7 +22,7 @@ const Weather = () => {
   console.log(data);
 
   return (
-    <div className="min-h-screen bg-[url('images/m1.jpg')] bg-cover bg-no-repeat">
+    <div className="min-h-screen bg-[url('images/pi4.jpg')] bg-cover bg-no-repeat">
     <div >
     <WeatherInput Searchcity={HandleData }  />
        {error && (
